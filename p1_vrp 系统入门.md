@@ -24,6 +24,8 @@
 
 `display+命令:` 查看接口信息或者是配置的信息是否正确。如：配置了 vlan 10,查看命令 dispaly vlan
 
+`查看现有配置:` display ip interface brief
+
 ### 删除命令
 `undo:` 操作过程中不小心输入了错误的命令，或者想删除不必要的配置。可以使用**undo+命令**删除错误的配置。如：undo vlan 10
 

@@ -30,3 +30,10 @@ Route 的每个端口属于不同的广播域
 加入到接口：port link-type access
 
 设置默认网口: port default vlan 10
+
+## 删除 IP
+进入系统视图 
+
+进入接口: int g0/0/0 `g0/0/0:代表千兆，e0/0/0代表百兆`
+
+删除IP：undo ip address 192.168.1.254 24
