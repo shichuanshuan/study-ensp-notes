@@ -37,3 +37,10 @@ Route 的每个端口属于不同的广播域
 进入接口: int g0/0/0 `g0/0/0:代表千兆，e0/0/0代表百兆`
 
 删除IP：undo ip address 192.168.1.254 24
+
+![alt text](pngs/p2_ip.png)
+
+
+
+ip & 网关
+![alt text](pngs/p3_gw.png)
